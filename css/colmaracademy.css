@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: helvetica;
+    font-size: 22px;
+    color: #000000;
+}
+
+h1 { 
+    font-size: 30px; 
+    font-weight: bold;
+}
+h2 { font-size: 28px; }
+h3 { font-size: 26px; }
+h4 { font-size: 24px; }
+h5 { font-size: 22px; }
+h6 { font-size: 18px; }
+
+.navbar {
+    display: flex;
+    /*width: 100%;*/
+    height: 70px;
+    background-color: #ffffff;
+}
+
+.navbarLogo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.navbarLinks {
+    display: flex;
+    width: 100%; /* need this to work with flex-end */
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 24px;
+}
+
+.navbarIcons {
+    display: none;
+    align-items: center;
+    align-content: center;
+}
+
+.navbar a {
+    text-decoration: none; /* remove underscore in <a></a> */
+    color: #000000;
+}
+
+#colmar {
+    color: #4a4a4b;
+    font-weight: bold;
+}
+
+#colmar span {
+    color: #848485;
+}
+
+.navbarLinks a {
+    /*background-color: #000000;*/
+    margin: 10px;
+    color: #000000;
+}
+
+
+.bodysection {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+    margin: auto;
+    background-color: #dfdddd;
+}
+
+.bodysection img {
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}
+
+button {
+    color: white;
+    background-color: #c7c4c4;
+}
+
+.bodysectionText {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /*padding: 20px;*/
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 720px) {
+        .navbarLinks, .navbarLogo {
+            display: none;
+            /*flex-direction: column;*/
+        }
+        
+        .navbarIcons {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .bodysection {
+            flex-direction: column;
+            /*display: none;*/
+        }
+}
+
+/*
+@media screen and (min-width: 720px) {
+    .navbarIcons {
+        display: none;
+    }
+    .bodysection {
+        flex-direction: row;
+    }
+}*/
