@@ -7,38 +7,254 @@
     <title>ColmarAcademy</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/colmaracademy.css">
+    <link rel="stylesheet" href="./css/section2.css">
+    <link rel="stylesheet" href="./css/section3.css">
+    <link rel="stylesheet" href="./css/section4.css">
+    <link rel="stylesheet" href="./css/foot.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbarLogo">
             <img src="./images/ic-logo.svg" alt="logo">
-            <a href="#" id="colmar">COLMAR<span>ACADEMY</span></a>
+            <a href="#" id="colmarText"><h5>COLMAR<span>ACADEMY</span></h5></a>
         </div>
         <nav class="navbarLinks">
-            <a href="#">On Campus</a>
-            <a href="#">Online</a>
-            <a href="#">Companies</a>
-            <a href="#">Sign in</a>
+            <h5>
+            <a href="#section1">On campus</a>
+            <a href="#section2">Online</a>
+            <a href="#section3">For companies</a>
+            <a href="#section4">Sign in</a>
+            </h5>
         </nav>
 
         <nav class="navbarIcons">
-            <a href="#"><img src="./images/ic-logo.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-on-campus.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-online.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-login.svg" alt=""></a>
+            <a href="#section1"><img src="./images/ic-logo.svg" alt=""></a>
+            <a href="#section2Mobile"><img src="./images/ic-on-campus.svg" alt=""></a>
+            <a href="#section3Mobile"><img src="./images/ic-online.svg" alt=""></a>
+            <a href="#section4Mobile"><img src="./images/ic-login.svg" alt=""></a>
         </nav>
     </header>
 
-    <section class="bodysection">
-        <div>
-            <img src="./images/banner.jpg" alt="">
+    <section class="section1 d-flex-r" id="section1">
+        <div class="bodysectionImage d-flex-r">
+            <img src="./images/banner.jpg" alt="Banner Picture">
         </div>
-        <div class="bodysectionText">
-            <h1>Learn something new everyday</h1>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+        <div class="section1Text d-flex-c">
+            <p><h1>Learn something new everyday</h1></p>
+            <p><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4></p>
             <button>Start here</button>
         </div>
     </section>
+
+    <section class="section2" id="section2">
+        <div class="container d-flex-r">
+            <div class="sect2ContainerLeft d-flex-c">
+                <div>
+                    <img src="./images/information-main.jpg" alt="Information Main Picture">
+                </div>
+                <div>
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <p>"Curabitur vitae libero ipsum porttior consequant. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet efficitur dolo consequat, tristique ligula."</p>
+                    <h5>Emaunuel, Sr Strategist at Hiring.com</h5>
+                </div>
+            </div>
+            <div class="sect2ContainerRight d-flex-c">
+                <div class="sect2Items d-flex-r">
+                    <div>
+                        <img src="./images/information-orientation.jpg" alt="Information Orientation Picture">
+                    </div>
+                    <div>
+                        <h3>Orientation Date</h3>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="sect2Items d-flex-r">
+                    <div>
+                        <img src="./images/information-campus.jpg" alt="Information Campus Picture">
+                    </div>
+                    <div>
+                        <h3>Our campus</h3>
+                        <p>Find out which campus is closed by you</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="sect2Items colorDiv d-flex-r">
+                    <div>
+                        <img src="./images/information-guest-lecture.jpg" alt="Information Guest Lecture Picture">
+                    </div>
+                    <div>
+                        <h3>Our guest lecture</h3>
+                        <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of section 2 desktop -->
+    <!-- start of section 2 mobile -->
+    <div class="sect2Mobile d-flex-cMobile" id="section2Mobile">
+        <div class="sect2Items d-flex-cMobile">
+            <div>
+                <img src="./images/information-orientation-mobile.jpg" alt="Information Orientation Picture">
+            </div>
+            <div>
+                <h3>Orientation Date</h3>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="sect2Items d-flex-cMobile">
+            <div>
+                <img src="./images/information-campus-mobile.jpg" alt="Information Campus Picture">
+            </div>
+            <div>
+                <h3>Our campus</h3>
+                <p>Find out which campus is closed by you</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="sect2Items d-flex-cMobile">
+            <div>
+                <img src="./images/information-guest-lecture-mobile.jpg" alt="Information Guest Lecture Picture">
+            </div>
+            <div>
+                <h3>Our guest lecture</h3>
+                <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+    <!-- end of section 2 mobile -->
+
+    <section class="section3 d-flex-c" id="section3"> <!-- start of section 3 -->
+        <div>
+            <h2>Start learning</h2>
+        </div>
+    
+        <div class="courses">
+            <div>
+                <img src="./images/course-software.jpg" alt="Course Software">
+                <h4>Software Engineering</h4>
+                <p>COURSES</p>
+                <P>WEB Development, Mobile Development, IoT, APIs</P>
+            </div>
+            <div>
+                <img src="./images/course-computer-art.jpg" alt="Course Computer Art">
+                <h4>Computer Art</h4>
+                <p>COURSES</p>
+                <P>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</P>
+            </div>
+            <div>
+                <img src="./images/course-design.jpg" alt="Course Design">
+                <h4>Design</h4>
+                <p>COURSES</p>
+                <P>User Experience Design, User Research, Visual Design</P>
+            </div>
+            <div>
+                <img src="./images/course-data.jpg" alt="Course Data">
+                <h4>Data</h4>
+                <p>COURSES</p>
+                <P>Data Science, Big Data, SQL, Data Visualization</P>
+            </div>
+            <div>
+                <img src="./images/course-business.jpg" alt="Course Business">
+                <h4>Business</h4>
+                <p>COURSES</p>
+                <P>Product Development, Business Development Startup</P>
+            </div>
+            <div>
+                <img src="./images/course-marketing.jpg" alt="Course Marketing">
+                <h4>Marketing</h4>
+                <p>COURSES</p>
+                <P>Analytics, Content Marketing, Mobile Marketing</P>
+            </div>
+    </div>
+    </section> <!-- end of section 3 -->
+    <section class="section3Mobile" id="section3Mobile"> <!-- start of section 3 mobile -->
+        <div>
+            <h2>Start learning</h2>
+        </div>
+    
+            <div class="s3course colorDiv">
+                <h4>Software Engineering</h4>
+            </div>
+            <div class="s3course colorDiv">
+                <h4>Computer Art</h4>
+            </div>
+            <div class="s3course colorDiv">
+                <h4>Design</h4>
+            </div>
+            <div class="s3course colorDiv">
+                <h4>Data</h4>
+            </div>
+            <div class="s3course colorDiv">
+                <h4>Business</h4>
+            </div>
+            <div class="s3course colorDiv">
+                <h4>Marketing</h4>
+            </div>
+    </section> <!-- end of section 3 mobile -->
+
+    <section class="section4" id="section4"> <!-- start of section 4 -->
+        <div>
+            <h2>Thesis Exhibits</h2>
+        </div>
+        <div class="container">
+            <div class="sect4ContainerLeft">
+                <div class="video">
+                    <iframe class="responsive-iframe" src="./videos/thesis.mp4"></iframe>
+                    <!-- <img src="./videos/thesis.mp4" alt="Thesis Video"> -->
+                </div>
+                <div>
+                    <h3>Reimagine Urban</h3>
+                    <p>"Curabitur vitae libero ipsum porttior consequant. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet efficitur dolo consequat, tristique ligula."</p>
+                </div>
+            </div>
+            <div class="sect4ContainerRight">
+                <div class="sect4Items colorDiv">
+                    <div>
+                        <img src="./images/thesis-fisma.jpg" alt="Thesis Fisma Picture">
+                    </div>
+                    <div>
+                        <h3>FISMA: Design and Prototype</h3>
+                        <p>Designer showcase of new prototype project</p>
+                    </div>
+                </div>
+                <div class="sect4Items">
+                    <div>
+                        <img src="./images/thesis-now-and-then.jpg" alt="Now and Then Picture">
+                    </div>
+                    <div>
+                        <h3>Now and Then</h3>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of section 4 desktop -->
+    
+    <section class="section4Mobile" id="section4Mobile"> <!-- section 4 mobile -->
+        <div>
+            <h2>Thesis Exhibits</h2>
+        </div>
+        <div class="video controls loop">
+            <iframe class="responsive-iframe" src="./videos/thesis.mp4"></iframe>
+            <!-- <img src="./videos/thesis.mp4" alt="Thesis Video"> -->
+        </div>
+    </section> <!-- end of section 4 mobile -->
+    
+    <footer>
+        <div class="myFoot">
+            <div class="leftFoot flexctr">
+                <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+            </div>
+            <div class="rightFoot flexctr">
+                <p>Terms</p>
+                <p>Privacy</p>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
