@@ -1,0 +1,85 @@
+/* andrew sim */
+.sect2ContainerLeft {
+    flex-basis: 60%;
+    padding-left: 24px;
+    text-align: left;
+}    
+
+.sect2ContainerLeft img {
+    /*width: 60%;*/
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.sect2ContainerLeft h2, p {
+    padding-bottom: 24px;
+}
+
+.sect2ContainerLeft h5 {
+    padding-bottom: 32px;
+}
+
+
+.sect2ContainerRight {
+    padding-top: 32px;
+    padding-right: 24px;
+}
+
+.sect2ContainerRight a {
+    text-decoration: none; /* remove underscore in <a></a> */    
+}
+
+.sect2ContainerRight img {
+    /*width: 35%;*/
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*.sect2Items {
+    display: flex;
+    flex-direction: row;
+}*/
+
+.container {
+    /*display: flex;
+    flex-direction: row;*/
+    width: 100%;
+}
+
+.sect2Mobile {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .d-flex-cMobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 {
+        display: none;
+    }
+
+    /*.sect2Mobile {
+        display: flex;
+        flex-direction: column;
+    }*/
+
+    .sect2Items {
+        /*display: flex;
+        flex-direction: column;*/
+        margin: 32px 32px 16px 32px;
+    }
+
+    .sect2Items h3 {
+        /*margin: 16px 0px 16px 0px;*/
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .sect2Items a {
+        margin-top: 20px;
+        text-decoration: none; /* remove underscore in <a></a> */    
+    }
+}

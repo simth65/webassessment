@@ -1,0 +1,29 @@
+/* andrew */
+.myFoot {
+    display: flex;
+    /* margin-top: 32px;*/ /* already provided 32px in section 4 */
+}
+
+.flexctr {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+.leftFoot {
+    justify-content: flex-start;
+    /*border: 1px solid #000000;*/
+}
+
+.rightFoot {
+    justify-content: flex-end;
+    /*border: 1px solid #000000;*/
+}
+
+@media screen and (max-width: 720px) {
+    .flexctr {
+        padding: 16px;
+    }
+}
