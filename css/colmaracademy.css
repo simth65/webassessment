@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
     width: 100%;
     margin: auto;*/
     background-color: #dfdddd;
+    border: 1px solid #01161e;
 }
 
 .bodysectionImage {
@@ -152,8 +153,15 @@ button {
             /*display: none;*/
         }
 
+        .bodysectionImage {
+            margin: 0px;
+        }
         .section1 img {
             width: 100%;
+        }
+
+        .section1 h1, h4 {
+            padding-top: 16px;
         }
 
         .section1Text button {
