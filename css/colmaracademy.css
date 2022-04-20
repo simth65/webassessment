@@ -145,14 +145,14 @@ button {
             justify-content: space-around;
         }
 
-        .bodysection {
+        .section1 {
             flex-direction: column;
             padding: 0;
             padding-bottom: 32px;
             /*display: none;*/
         }
 
-        .bodysectionText button {
+        .section1Text button {
             margin: auto;
             margin-top: 8px;
         }
