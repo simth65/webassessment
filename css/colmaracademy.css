@@ -152,6 +152,10 @@ button {
             /*display: none;*/
         }
 
+        .section1 img {
+            width: 100%;
+        }
+
         .section1Text button {
             margin: auto;
             margin-top: 8px;
